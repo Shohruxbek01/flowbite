@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.5/dist/flowbite.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+
+  <nav class="bg-white   px-10 flex justify-center sm:px-10 py-2.5 mx-auto rounded">
+    <div class="container flex flex-wrap w-[80%] items-center justify-between mx-auto">
+      <a href="https://flowbite.com/" class="flex items-center">
+        <span class="self-center text-xl text-green-500 font-semibold whitespace-nowrap dark:text-white">ZAY</span>
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul
+          class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+
+          <li>
+            <a href="#"
+              class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Shop</a>
+          </li>
+          <li>
+            <a href="#"
+              class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          </li>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-user"></i>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div id="default-carousel" class="relative" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-[300px] overflow-hidden lg:h-[600px] ">
+      <!-- Item 1 -->
+      <div class="hidden duration-700 ease-in-out bg-[#EFEFEF] flex items-center justify-center p-[70px]"
+        data-carousel-item>
+        <div class="text w-[40%] h-[90%] flex flex-col  justify-center ">
+          <h1 class="text-5xl font-light text-green-500 my-5">Zay eCommerce</h1>
+          <h2 class="text-3xl font-light text-black my-5">Tiny and Perfect eCommerce <br> Template</h2>
+          <h3 class="w-[80%]">Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap. This
+            template is 100% free
+            provided by TemplateMo website. Image credits go to stories.freepik.com, unsplash.com and icons8.com</h3>
+        </div>
+        <div class="img w-[40%] h-[100%] ">
+          <img src="./banner_img_01.jpg" class=" w-[90%] h-[100%] " alt="...">
+        </div>
+      </div>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out bg-[#EFEFEF] flex items-center justify-center p-[70px]"
+        data-carousel-item>
+        <div class="text w-[40%] h-[90%] flex flex-col justify-center ">
+          <h1 class="text-5xl font-[100]">Proident occaecat</h1>
+          <h2 class="text-3xl font-[400] text-black my-5">Aliquip ex ea commodo consequat</h2>
+          <h3 class="w-[77%] text-[18px]">You are permitted to use this Zay CSS template for your commercial websites.
+            Mauris viverra quam ut dolor commodo, vel posuere libero hendrerit. Curabitur eleifend felis eu erat.</h3>
+        </div>
+        <div class="img w-[40%] h-[90%] ">
+          <img src="./banner_img_02.jpg" class=" w-[80%] h-[100%] " alt="...">
+        </div>
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out bg-[#EFEFEF] flex items-center justify-center p-[70px]"
+        data-carousel-item>
+        <div class="text w-[40%] h-[90%] flex flex-col justify-center ">
+          <h1 class="text-5xl font-[100]">Repr in voluptate</h1>
+          <h2 class="text-3xl font-[400] text-black my-5">Ullamco laboris nisi ut</h2>
+          <h3 class="w-[75%] text-[16px]">We bring you 100% free CSS templates for your websites. Id arcu consectetur,
+            nec porttitor mi porttitor. Donec venenatis dui eget erat vestibulum, dictum gravida massa convallis.
+            Integer id.</h3>
+        </div>
+        <div class="img w-[40%] h-[100%] ">
+          <img src="./banner_img_03.jpg" class=" w-[80%] h-[100%] " alt="...">
+        </div>
+      </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5  left-1/2">
+      <button type="button" class="w-8 h-1 bg-green-700" aria-current="false" aria-label="Slide 1"
+        data-carousel-slide-to="0"></button>
+      <button type="button" class="w-8 h-1 bg-green-700" aria-current="false" aria-label="Slide 2"
+        data-carousel-slide-to="1"></button>
+      <button type="button" class="w-8 h-1 bg-green-700" aria-current="false" aria-label="Slide 3"
+        data-carousel-slide-to="2"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button"
+      class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+      data-carousel-prev>
+      <span class="inline-flex items-center justify-center w-8 h-8 rounded-full lg:w-[80px] lg:h-[60px] bg-none ">
+        <svg aria-hidden="true" class="w-8 h-8 text-green-300 lg:w-[80px] lg:h-[60px] hover:text-green-500" fill="none"
+          stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+        <span class="sr-only">Previous</span>
+      </span>
+    </button>
+    <button type="button"
+      class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+      data-carousel-next>
+      <span class="inline-flex items-center justify-center w-8 h-8 rounded-full lg:w-[80px] lg:h-[60px] bg-none ">
+        <svg aria-hidden="true" class="w-8 h-8 text-green-300 lg:w-[80px] lg:h-[60px] hover:text-green-500 " fill="none"
+          stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+        <span class="sr-only">Next</span>
+      </span>
+    </button>
+  </div>
+
+
+
+  <div class="cards_top  w-[100%] h-[100vh] flex flex-col justify-center">
+    <h1 class="text-center text-5xl font-sans font-light">Categories of The Month</h1>
+    <h2 class="text-center text-lg font-sans font-light w-[500px] mx-auto my-5">Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+    <div class="cards flex justify-between w-[60%] mx-auto my-5">
+      <div class="max-w-sm  bg-white flex items-center flex-col ">
+        <a href="#">
+          <img class="w-[250px] rounded-full" src="/img/category_img_01.jpg" alt="" />
+        </a>
+        <div class="p-5 flex flex-col justify-center items-center">
+          <a href="#">
+            <h5 class="mb-4 text-2xl font-medium text-gray-900">Watches</h5>
+          </a>
+          <a href="#"
+            class="flex items-center justify-center w-[120px] h-[50px] font-sans text-center text-xl font-light text-white bg-green-700 rounded-lg">
+            Go Shop
+          </a>
+        </div>
+      </div>
+      <div class="max-w-sm bg-white flex items-center flex-col ">
+        <a href="#">
+          <img class="w-[250px] rounded-full" src="/img/category_img_02.jpg" alt="" />
+        </a>
+        <div class="p-5 flex flex-col justify-center items-center">
+          <a href="#">
+            <h5 class="mb-4 text-2xl font-medium text-gray-900">Watches</h5>
+          </a>
+          <a href="#"
+            class="flex items-center justify-center w-[120px] h-[50px] font-sans text-center text-xl font-light text-white bg-green-700 rounded-lg">
+            Go Shop
+          </a>
+        </div>
+      </div>
+      <div class="max-w-sm bg-white flex items-center flex-col ">
+        <a href="#">
+          <img class="w-[250px] rounded-full" src="/img/category_img_03.jpg" alt="" />
+        </a>
+        <div class="p-5 flex flex-col justify-center items-center">
+          <a href="#">
+            <h5 class="mb-4 text-2xl font-medium text-gray-900">Watches</h5>
+          </a>
+          <a href="#"
+            class="flex items-center justify-center w-[120px] h-[50px] font-sans text-center text-xl font-light text-white bg-green-700 rounded-lg">
+            Go Shop
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card_bottom w-[100%] h-[1000px] flex flex-col justify-center bg-[#E9EEF5]">
+    <h1 class="text-center text-5xl font-sans font-light mt-20">Featured Product</h1>
+    <h2 class="text-center text-lg font-sans font-light w-[500px] mx-auto my-5">Reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</h2>
+    <div class="cards flex justify-between w-[80%] mx-auto">
+      <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-sm" src="./img/feature_prod_01.jpg" alt="product image" />
+        </a>
+        <div class="px-5 pb-5">
+          <div class="flex items-center justify-between mt-2.5 mb-5">
+            <div class="stars flex ">
+              <svg aria-hidden="true" class="w-8 h-8 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>First star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg aria-hidden="true" class="w-8 h-8 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Second star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg aria-hidden="true" class="w-8 h-8 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Third star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg aria-hidden="true" class="w-8 h-8 text-gray-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Fourth star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg aria-hidden="true" class="w-8 h-8 text-gray-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Fifth star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+            </div>
+            <span class=" text-gray-400 text-lg font-awesome ">$240.00</span>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-3xl font-normal">Gym Weight</span>
+            <h1 class="text-lg mb-5 font-light text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Sunt in culpa qui officia deserunt.</h1>
+            <h2 class="text-gray-600">Reviews (24)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-sm" src="./img/feature_prod_02.jpg" alt="product image" />
+        </a>
+        <div class="px-5 pb-5">
+          <div class="flex items-center justify-between mt-2.5 mb-5">
+            <div class="stars flex ">
+              <svg aria-hidden="true" class="w-8 h-8 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>First star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg aria-hidden="true" class="w-8 h-8 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Second star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg aria-hidden="true" class="w-8 h-8 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Third star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg aria-hidden="true" class="w-8 h-8 text-gray-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Fourth star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg aria-hidden="true" class="w-8 h-8 text-gray-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Fifth star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+            </div>
+            <span class=" text-gray-400 text-lg font-awesome ">$480.00</span>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-3xl font-normal">Cloud Nike Shoes</span>
+            <h1 class="text-lg mb-5 font-light text-black">Aenean gravida dignissim finibus. Nullam ipsum diam, posuere
+              vitae pharetra sed, commodo ullamcorper.</h1>
+            <h2 class="text-gray-600">Reviews (48)</h2>
+          </div>
+        </div>
+      </div>
+      <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <img class="rounded-t-sm" src="./img/feature_prod_03.jpg" alt="product image" />
+        </a>
+        <div class="px-5 pb-5">
+          <div class="flex items-center justify-between mt-2.5 mb-5">
+            <div class="stars flex ">
+              <svg aria-hidden="true" class="w-8 h-8 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>First star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg aria-hidden="true" class="w-8 h-8 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Second star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg aria-hidden="true" class="w-8 h-8 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Third star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg aria-hidden="true" class="w-8 h-8 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Fourth star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg aria-hidden="true" class="w-8 h-8 text-yellow-300" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <title>Fifth star</title>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+            </div>
+            <span class=" text-gray-400 text-lg font-awesome ">$360.00</span>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-3xl font-normal">Summer Addides Shoes</span>
+            <h1 class="text-lg mb-5 font-light text-black">Curabitur ac mi sit amet diam luctus porta. Phasellus
+              pulvinar sagittis diam, et scelerisque ipsum lobortis nec.</h1>
+            <h2 class="text-gray-800">Reviews (74)</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="bg-[#212934] w-[100%] flex flex-col">
+    <div class="flex justify-between w-[80%]  mx-auto p-[10px] mt-[50px] border-b-[1px] border-gray-700">
+      <div>
+        <h2
+          class="mb-6 text-3xl font-normal border-b-[1px] h-[60px] w-[350px] border-gray-700 text-green-400 dark:text-gray-400">
+          Zay Shop</h2>
+        <ul class="text-gray-500 dark:text-gray-400">
+          <li class="mb-2">
+            <h1 class="text-white text-2xl font-light"><i class="text-2xl fa-solid fa-location-dot"></i> 123 Consectetur
+              at ligula 10660</h1>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="font-light text-white text-2xl hover:text-green-400 text-white-400 text-2xl"><i
+                class="text-2xl fa-solid fa-phone-flip"></i> 010-020-0340</a>
+          </li>
+          <li class="mb-2">
+            <a href="#" class="font-light text-white text-2xl hover:text-green-400"><i
+                class="text-2xl fa-solid fa-envelope"></i> mail@domain.com</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="mb-6 text-3xl font-light border-b-[1px] h-[60px] w-[350px] border-gray-700 text-white ">Products</h2>
+        <ul class="text-gray-500">
+          <li class="mb-2"><a href="#" class="text-white text-xl hover:text-green-600 font-light">Luxury</a></li>
+          <li class="mb-2"><a href="#" class="text-white text-xl hover:text-green-600 font-light">Sport Wear</a></li>
+          <li class="mb-2"><a href="#" class="text-white text-xl hover:text-green-600 font-light">Men's Shoes</a></li>
+          <li class="mb-2"><a href="#" class="text-white text-xl hover:text-green-600 font-light">Women's Shoes</a></li>
+          <li class="mb-2"><a href="#" class="text-white text-xl hover:text-green-600 font-light">Popular Dress</a></li>
+          <li class="mb-2"><a href="#" class="text-white text-xl hover:text-green-600 font-light">Gym Accessories</a>
+          </li>
+          <li class="mb-2"><a href="#" class="text-white text-xl hover:text-green-600 font-light">Sport Shoes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="mb-6 text-3xl font-light border-b-[1px] h-[60px] w-[350px] border-gray-700 text-white ">Futher Info
+        </h2>
+        <ul class="text-gray-500 dark:text-gray-400">
+          <li class="mb-2"><a href="#" class="text-white text-xl hover:text-green-600 font-light">Home</a></li>
+          <li class="mb-2"><a href="#" class="text-white text-xl hover:text-green-600 font-light">About Us</a></li>
+          <li class="mb-2"><a href="#" class="text-white text-xl hover:text-green-600 font-light">Shop Locations</a>
+          </li>
+          <li class="mb-2"><a href="#" class="text-white text-xl hover:text-green-600 font-light">FAQs</a></li>
+          <li class="mb-2"><a href="#" class="text-white text-xl hover:text-green-600 font-light">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="py-6 px-4  flex flex-col items-center w-[80%] h-[150px] mx-auto md:justify-between">
+      <div class="flex mt-4 space-x-6 justify-between items-center w-[100%] h-[150px] mt-0 px-2">
+        <div class="icons flex w-[30%] justify-around">
+          <a href="#" class="text-gray-400 w-10 h-10 rounded-full hover:bg-white hover:text-black">
+            <svg class="w-10 h-10 p-2 border rounded-full" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                clip-rule="evenodd" />
+            </svg>
+            <span class="sr-only">Facebook page</span>
+          </a>
+          <a href="#" class="text-gray-400 w-10 h-10 rounded-full hover:bg-white hover:text-black">
+            <svg class="w-10 h-10 p-2 border rounded-full" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                clip-rule="evenodd" />
+            </svg>
+            <span class="sr-only">Instagram page</span>
+          </a>
+          <a href="#" class="text-gray-400 w-10 h-10 rounded-full hover:bg-white hover:text-black">
+            <svg class="w-10 h-10 p-2 border rounded-full" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+            </svg>
+            <span class="sr-only">Twitter page</span>
+          </a>
+          <a href="#" class="text-gray-400 w-10 h-10 rounded-full hover:bg-white hover:text-black">
+            <svg class="w-10 h-10 p-2 border rounded-full" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                clip-rule="evenodd" />
+            </svg>
+            <span class="sr-only">GitHub account</span>
+          </a>
+        </div>
+        <div class="search w-[40%] h-[60px] flex rounded-lg border p-0">
+          <input type="text" id="input-group-1"
+            class="bg-transparent text-gray-900 text-lg w-[70%] pl-10 p-2.5  border-none" placeholder="Email adress">
+          <button class="bg-green-600 w-[30%] rounded-r-lg">
+            <h1 class="text-white text-2xl">Subscribe</h1>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+    <span class="text-lg text-gray-200 bg-black w-full h-[60px] mt-[28px] flex items-center">Copyright © 2045 Company
+      Name | Designed by <a href="#"><u>TemplateMo</u></a>
+    </span>
+  </footer>
+
+
+
+  <script src="https://unpkg.com/flowbite@1.5.5/dist/flowbite.js"></script>
+</body>
+
+</html>
